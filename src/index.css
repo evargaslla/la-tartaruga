@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --color-moss: #05180a;
+  --color-clay: #d4af37;
+  --color-cream: #0a2e16;
+  --color-charcoal: #f0eedc;
+
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --font-outfit: "Outfit", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --radius-4xl: 2rem;
+  --radius-5xl: 2.5rem;
+  --radius-6xl: 3rem;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-charcoal);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: var(--color-clay);
+    color: var(--color-moss);
+  }
+}
+
+@utility glass {
+  background-color: rgba(10, 46, 22, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+@utility glass-dark {
+  background-color: rgba(5, 24, 10, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
