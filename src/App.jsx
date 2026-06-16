@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { LanguageProvider } from './context/LanguageContext';
+import { Analytics } from '@vercel/analytics/react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -54,6 +55,7 @@ function App() {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </LanguageProvider>
   );
 }
