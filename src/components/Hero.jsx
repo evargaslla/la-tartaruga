@@ -15,6 +15,13 @@ export default function Hero() {
     return () => clearInterval(interval);
   }, []);
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
       gsap.from(".hero-text", {
@@ -70,7 +77,7 @@ export default function Hero() {
             </span>
           </h1>
           <div className="hero-text mt-10 md:mt-12 flex flex-wrap gap-4">
-            <button className="bg-clay text-moss px-8 py-4 rounded-full font-sans font-bold text-lg hover:scale-105 transition-transform duration-300 ease-out shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:shadow-[0_0_25px_rgba(212,175,55,0.6)] hover:bg-[#b5952f]">
+            <button onClick={scrollToContact} className="bg-clay text-moss px-8 py-4 rounded-full font-sans font-bold text-lg hover:scale-105 transition-transform duration-300 ease-out shadow-[0_0_15px_rgba(212,175,55,0.4)] hover:shadow-[0_0_25px_rgba(212,175,55,0.6)] hover:bg-[#b5952f]">
               {t('hero', 'cta')}
             </button>
           </div>
