@@ -20,10 +20,29 @@ export default function Footer() {
         
         <div className="grid grid-cols-2 gap-12 font-sans text-sm">
           <div className="flex flex-col gap-4">
-            <h4 className="font-mono text-xs uppercase tracking-widest text-clay mb-2">{t('footer', 'protocols')}</h4>
-            <a href="#pricing" className="opacity-70 hover:opacity-100 transition-opacity">Reservas</a>
-            <a href="#features" className="opacity-70 hover:opacity-100 transition-opacity">Instalaciones</a>
-            <a href="#services" className="opacity-70 hover:opacity-100 transition-opacity">Servicios</a>
+            <h4 className="font-mono text-xs uppercase tracking-widest text-clay mb-2">{t('footer', 'navigation')}</h4>
+            <a href="#hero" className="opacity-70 hover:opacity-100 transition-opacity">{t('navbar', 'home')}</a>
+            <a href="#gallery" className="opacity-70 hover:opacity-100 transition-opacity">{t('navbar', 'rooms')}</a>
+            <a href="#services" className="opacity-70 hover:opacity-100 transition-opacity">{t('navbar', 'services')}</a>
+            <a href="#manifesto" className="opacity-70 hover:opacity-100 transition-opacity">{t('navbar', 'philosophy')}</a>
+            <a href="#contact" className="opacity-70 hover:opacity-100 transition-opacity">{t('navbar', 'contact')}</a>
+          </div>
+
+          <div className="flex flex-col gap-4">
+            <h4 className="font-mono text-xs uppercase tracking-widest text-clay mb-2">{t('footer', 'connect')}</h4>
+            <div className="flex items-center gap-4">
+              <a href="https://wa.me/" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="w-10 h-10 flex items-center justify-center rounded-full bg-[#25D366] text-white hover:opacity-90 transition-opacity">
+                <i className="fab fa-whatsapp fa-lg"></i>
+              </a>
+
+              <a href="https://facebook.com/" target="_blank" rel="noreferrer" aria-label="Facebook" className="w-10 h-10 flex items-center justify-center rounded-full bg-[#1877F2] text-white hover:opacity-90 transition-opacity">
+                <i className="fab fa-facebook-f fa-lg"></i>
+              </a>
+
+              <a href="https://instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram" className="w-10 h-10 flex items-center justify-center rounded-full bg-gradient-to-br from-[#f58529] via-[#dd2a7b] to-[#8134af] text-white hover:opacity-90 transition-opacity">
+                <i className="fab fa-instagram fa-lg"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
