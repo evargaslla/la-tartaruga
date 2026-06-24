@@ -1,6 +1,8 @@
 import React, { useLayoutEffect } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import AboutUs from './components/AboutUs';
+import RoomsList from './components/RoomsList';
 
 import ServicesList from './components/ServicesList';
 import Manifesto from './components/Manifesto';
@@ -44,10 +46,12 @@ function App() {
         <Navbar />
         <main>
           <Hero />
+          <AboutUs />
 
           <ServicesList />
           <Manifesto />
 
+          <RoomsList />
           <RoomGallery />
 
           <Contact />

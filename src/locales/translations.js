@@ -129,6 +129,25 @@ export const translations = {
       protocols: "Protocolos",
       contact: "Contacto",
       rights: "© 2026 B&B La Tartaruga. Todos los derechos reservados."
+    },
+    about: {
+      title: "¿QUIÉNES SOMOS?",
+      desc1: "Bienvenidos al B&B La Tartaruga, el lugar ideal para una estancia cómoda y relajante en Pregnana Milanese. Estamos orgullosos de ofrecer calidad al precio justo para nuestros huéspedes.",
+      desc2: "Estamos a pocos pasos de Milán, fácilmente accesible desde nuestra estación donde el tren S6 le ayudará a llegar en pocos minutos a todas las estaciones de Milán y sus alrededores (6 min. a Rho Fiera, 2 paradas). Con especial atención a la calidad y el confort, ofrecemos a nuestros huéspedes una experiencia única e inolvidable para todas las necesidades, tanto de ocio como de trabajo.",
+      desc3: "El B&B La Tartaruga es un alojamiento acogedor y familiar situado en el centro de Pregnana Milanese."
+    },
+    roomsList: {
+      title: "Nuestras habitaciones",
+      desc1: "Las habitaciones de nuestro B&B están diseñadas para ofrecerte el máximo confort en un ambiente cálido y acogedor, pero no solo podemos ofrecer estudios, apartamentos de tres habitaciones, casas de vacaciones o simplemente alquiler de habitaciones.",
+      desc2: "Ya sea que viaje por relax o por trabajo, encontrará un espacio tranquilo donde descansar y sentirse como en casa.",
+      rooms: [
+        { name: "Estudio Deluxe", desc: "Equipado para alojar a 3/4 personas, pared de cocina totalmente equipada con aparcamiento privado interno." },
+        { name: "Estudio Rubino", desc: "Equipado para alojar a 2 personas, pared de cocina totalmente equipada con aparcamiento privado interno." },
+        { name: "Estudio Tulipano", desc: "Equipado para alojar a 2/3 personas, pared de cocina totalmente equipada con aparcamiento privado interno." },
+        { name: "Estudio Ornato Blue", desc: "Equipado para alojar a 3/4 personas, pared de cocina totalmente equipada con aparcamiento privado interno." },
+        { name: "Apto. Business 3 hab.", desc: "Adecuado para empresas en viaje de negocios que necesiten alojar equipos de colaboradores, 6/8 personas, 3 dormitorios cada uno con baño privado, zona de estar totalmente equipada, cocina y lavadero con aparcamiento privado interno, y todos los servicios están incluidos." },
+        { name: "Apto. Business Cornaredo", desc: "Adecuado para empresas en viaje de negocios que necesiten alojar equipos de colaboradores, 6/8 personas, 3 dormitorios cada uno con baño privado, zona de estar totalmente equipada, cocina y lavadero con aparcamiento privado interno para vehículos ligeros y pesados, y todos los servicios están incluidos." }
+      ]
     }
   },
   en: {
@@ -261,6 +280,25 @@ export const translations = {
       protocols: "Protocols",
       contact: "Contact",
       rights: "© 2026 B&B La Tartaruga. All rights reserved."
+    },
+    about: {
+      title: "WHO ARE WE?",
+      desc1: "Welcome to B&B La Tartaruga, the ideal place for a comfortable and relaxing stay in Pregnana Milanese. We are proud to offer quality at the right price for our guests.",
+      desc2: "We are a few steps from Milan, easily reachable from our station where the S6 train will help you reach all the stations in Milan and its surroundings in a few minutes (6 min. to Rho Fiera, 2 stops). With particular attention to quality and comfort, we offer our guests a unique and unforgettable experience for all needs, both leisure and business.",
+      desc3: "B&B La Tartaruga is a welcoming and familiar accommodation facility located in the center of Pregnana Milanese."
+    },
+    roomsList: {
+      title: "Our Rooms",
+      desc1: "The rooms of our B&B are designed to offer you maximum comfort in a warm and welcoming atmosphere, but not only can we offer studios, three-room apartments, holiday homes or simply room rentals.",
+      desc2: "Whether you are traveling for relaxation or work, you will find a quiet space to rest and feel at home.",
+      rooms: [
+        { name: "Deluxe Studio", desc: "Equipped to accommodate 3/4 people, fully equipped kitchen wall with internal private parking." },
+        { name: "Rubino Studio", desc: "Equipped to accommodate 2 people, fully equipped kitchen wall with internal private parking." },
+        { name: "Tulipano Studio", desc: "Equipped to accommodate 2/3 people, fully equipped kitchen wall with internal private parking." },
+        { name: "Ornato Blue Studio", desc: "Equipped to accommodate 3/4 people, fully equipped kitchen wall with internal private parking." },
+        { name: "Business 3-Room Apt", desc: "Suitable for traveling companies that need to host teams of collaborators, 6/8 people, 3 bedrooms each with an en-suite bathroom, fully equipped living area, kitchen, and laundry with internal private parking, and all utilities are included." },
+        { name: "Business Cornaredo Apt", desc: "Suitable for traveling companies that need to host teams of collaborators, 6/8 people, 3 bedrooms each with an en-suite bathroom, fully equipped living area, kitchen, and laundry with internal private parking for light and heavy vehicles, and all utilities are included." }
+      ]
     }
   },
   it: {
@@ -393,6 +431,25 @@ export const translations = {
       protocols: "Protocolli",
       contact: "Contatto",
       rights: "© 2026 B&B La Tartaruga. Tutti i diritti riservati."
+    },
+    about: {
+      title: "CHI SIAMO?",
+      desc1: "Benvenuti al B&B La Tartaruga, il luogo ideale per un soggiorno confortevole e rilassante a Pregnana Milanese. Siamo orgogliosi di offrire qualità al giusto prezzo per i nostri ospiti.",
+      desc2: "Siamo a pochi passi da Milano, facilmente raggiungibile dalla nostra stazione dove iln passante S6 vi aiuterà a raggiungere in pochi minuti tutte le stazioni di Milano e dintorni (6 min. a Rho Fiera 2 fermate). Con un'attenzione particolare alla qualità e al comfort, offriamo ai nostri ospiti un'esperienza unica e indimenticabile per tutte le esigenze sia di svago che di lavoro.",
+      desc3: "Il B&B La Tartaruga è una struttura ricettiva accogliente e familiare situata nel centro di Pregnana Milanese."
+    },
+    roomsList: {
+      title: "Le nostre camere",
+      desc1: "Le camere del nostro B&B sono pensate per offrirvi il massimo del comfort in un'atmosfera calda e accogliente, ma non solo possiamo offrire monolocali, trilocali, casa vacanze o semplicemente un affitta camere.",
+      desc2: "Che siate in viaggio per relax o per lavoro, troverete uno spazio tranquillo dove riposare e sentirvi a casa.",
+      rooms: [
+        { name: "Monolocale deluxe", desc: "Attrezzata per ospitare 3/4 persone, parete attrezzata cucina con parcheggio privato interno." },
+        { name: "Monolocale Rubino", desc: "Attrezzata per ospitare 2 persone, parete attrezzata cucina con parcheggio privato interno." },
+        { name: "Monolocale Tulipano", desc: "Attrezzata per ospitare 2/3 persone, parete attrezzata cucina con parcheggio privato interno." },
+        { name: "Monolocale Ornato Blue", desc: "Attrezzata per ospitare 3/4 persone, parete attrezzata cucina con parcheggio privato interno." },
+        { name: "Trilocale Business", desc: "Adatto ad aziende in trasferta che necessitano di ospitare squadre di collaboratori, 6/8 persone, 3 camere da letto ognuna dotata di bagno in camera, zona giorno compleatamente attrezzata, cucina e lavanderia con parcheggio privato interno, e tutte le utenze sono incluse." },
+        { name: "Trilocale Business Cornaredo", desc: "Adatto ad aziende in trasferta che necessitano di ospitare squadre di collaboratori, 6/8 persone, 3 camere da letto ognuna dotata di bagno in camera, zona giorno compleatamente attrezzata, cucina e lavanderia con parcheggio privato interno per mezzi leggeri ma anche pesanti, e tutte le utenze sono incluse." }
+      ]
     }
   }
 };
