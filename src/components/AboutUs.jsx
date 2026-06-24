@@ -27,7 +27,7 @@ export default function AboutUs() {
   return (
     <section ref={sectionRef} id="about" className="py-24 px-8 md:px-16 bg-cream">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="about-text font-sans font-bold text-4xl md:text-5xl text-charcoal mb-10 tracking-tight">
+        <h2 className="about-text font-serif text-4xl md:text-5xl text-charcoal mb-10 tracking-tight">
           {t('about', 'title')}
         </h2>
         <div className="space-y-6 font-serif text-xl md:text-2xl text-charcoal/80 leading-relaxed">

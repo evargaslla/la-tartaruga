@@ -40,13 +40,13 @@ export default function RoomsList() {
     <section ref={sectionRef} id="rooms-list" className="py-24 px-8 md:px-16 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-16 rooms-header">
-          <h2 className="font-sans font-bold text-4xl md:text-5xl text-charcoal mb-6">
+          <h2 className="font-sans font-bold text-4xl md:text-5xl text-moss mb-6">
             {t('roomsList', 'title')}
           </h2>
-          <p className="font-serif text-xl text-charcoal/80 mb-4">
+          <p className="font-serif text-xl text-moss/80 mb-4">
             {t('roomsList', 'desc1')}
           </p>
-          <p className="font-serif text-xl text-charcoal/80 text-clay">
+          <p className="font-serif text-xl text-moss/80 text-clay">
             {t('roomsList', 'desc2')}
           </p>
         </div>
@@ -54,6 +54,11 @@ export default function RoomsList() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {rooms.map((room, idx) => (
             <div key={idx} className="room-card bg-cream rounded-3xl p-8 border border-clay/10 shadow-sm hover:shadow-md transition-shadow">
+              <img 
+                src="/img/PHOTO-2026-06-10-13-24-17.jpg" 
+                alt={room.name} 
+                className="w-full h-48 object-cover rounded-2xl mb-6"
+              />
               <div className="w-12 h-12 bg-clay/10 rounded-full flex items-center justify-center text-clay mb-6">
                 <BedDouble className="w-6 h-6" />
               </div>
